@@ -90,17 +90,16 @@ class SquidGame {
     this.loadModels();
     this.addTriggers();
 
-    const startSound = new Audio('./static/resources/click.mp3');
+    const startButton = document.getElementById('start');
 startButton.addEventListener(
   'click',
   () => {
-    startSound.play();
     const intro = document.getElementById('intro');
     intro.classList.add('hidden');
     this.startGame();
   },
-      false,
-    );
+  false,
+);
   }
 
   startGame() {
