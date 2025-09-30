@@ -64,9 +64,8 @@ body, html {
 #intro img {
     width: 30%;
     height: auto;
-}
 
-/* ADD HERE: RIALO logo and project name styles */
+    /* ADD HERE: RIALO logo and project name styles */
 .logo-container {
   display: flex;
   flex-direction: column;
@@ -95,7 +94,6 @@ body, html {
   0% { opacity: 0; transform: translateY(20px); }
   100% { opacity: 1; transform: translateY(0); }
 }
-
 
 #start {
     display: inline-block;
