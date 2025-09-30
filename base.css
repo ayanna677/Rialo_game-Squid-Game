@@ -66,6 +66,34 @@ body, html {
     height: auto;
 }
 
+/* ADD HERE: RIALO logo and project name styles */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.logo-container img {
+    width: 150px;
+    height: auto;
+    animation: bounce 1.5s infinite;
+}
+
+.logo-container h1 {
+    color: #F4531C;
+    font-family: 'Arial', sans-serif;
+    font-size: 36px;
+    text-shadow: 2px 2px 5px #000;
+    margin: 0;
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
 #start {
     display: inline-block;
     outline: none;
